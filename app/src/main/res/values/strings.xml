@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spots Dialog</string>
+    <string name="title">Updating…</string>
+    <string name="show_default">Show default dialog</string>
+    <string name="show_styled">Show styled dialog</string>
+    <string name="show_message">Show custom message dialog</string>
+    <string name="show_message_style">Show custom message AND style dialog</string>
+</resources>

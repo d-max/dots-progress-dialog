@@ -1,6 +1,6 @@
 # Spots  progress dialog
 
-[![Maven](https://img.shields.io/badge/bintray-1.1-brightgreen.svg)](https://bintray.com/d-max/spots-dialog/d-max.spots-dialog/1.1)
+[![Maven](https://img.shields.io/badge/jitpack-2.1-brightgreen.svg)](https://bintray.com/d-max/spots-dialog/d-max.spots-dialog/1.1)
 &nbsp;&nbsp;
 [![Blog Post](https://img.shields.io/badge/medium-post-yellow.svg)](https://medium.com/@dybarsky/spots-progress-dialog-490bd2c737b1)
 &nbsp;&nbsp;
@@ -19,10 +19,10 @@ Android AlertDialog with moving spots progress indicator packed as android libra
 The library available in maven jcenter repository. You can get it using:
 ```groovy
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    implementation 'com.github.serifkazan:spots-dialog:2.0'
 }
 ```
 Javadoc and sources package [classifiers][3] available too.
